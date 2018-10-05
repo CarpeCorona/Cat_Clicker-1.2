@@ -51,11 +51,3 @@ function changeCat() {
 
 // Adds a click even to each of the buttons for the cats
 cats.forEach(cat => cat.addEventListener('click', changeCat));
-
-
-
-
-// Every 20 clicks on the cat the meow.wav file will play
-//if (clickCount % 20 === 0) {
-//  meow.play();
-//}

@@ -1,0 +1,58 @@
+body {
+  margin: auto;
+  max-width: 650px;
+  max-height: 800px;
+}
+
+img {
+  cursor: pointer;
+  width: 650px;
+  height: 400px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+li {
+  display: inline;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+button {
+  min-width: 100px;
+  margin-bottom: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+#mainDiv {
+  margin-top: 50px;
+  position: center;
+}
+
+#catList {
+  min-width: 25%;
+  min-height: 100%;
+}
+
+#catBox {
+  min-width: 73%;
+  min-height: 100%;
+}
+
+#clickCounter {
+  margin-bottom: 5px;
+  text-align: center;
+  font-size: 18px;
+}
